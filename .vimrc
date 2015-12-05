@@ -79,9 +79,6 @@ nnoremap ö `
 
 " Work up the directory tree to find 'tags'
 set tags =./tags;/
-" Pathogen
-execute pathogen#infect()
-call pathogen#helptags()
 
 set scrolloff=4
 set wildmode=list:longest
